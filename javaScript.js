@@ -15,6 +15,7 @@ let btn = document.querySelector('button');
 let para = document.querySelector('p');
 
 btn.addEventListener('click', async ()=>{
+    para.innerText = "Generating...."
     let fact = await getFact();
     para.innerText = fact;
 })

@@ -1,12 +1,15 @@
 body{
     text-align: center;
-    background-color: black;
+    align-items: center ;
+    background-color: rgb(108, 105, 105);
     color: white;
 }
-div{
+.box{
+    
     height: 400px;
     width: 400px;
     border-radius: 20px;
     padding: 10px;
-    border: 10px solid white;
+    margin: auto;
+    
 }
